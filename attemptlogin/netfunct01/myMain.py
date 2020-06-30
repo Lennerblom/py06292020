@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Alta3 Research || Author: RZFeeser@alta3.com"""
 #import worktodo.txt
+#worktodo = open("worktodo.txt", "r")
 
 # function to push commands
 def commandpush(devicecmd): # devicecmd==list
@@ -19,6 +20,7 @@ def devicereboot(ipList):
 
 # start our main script
 def main():
+   # work2do = worktodo
     work2do = {"10.1.0.1":["interface eth1/2", "no shutdown"], "10.2.0.1": 
     ["interface eth1/1", "shutdown"], "10.3.0.1":["interface eth1/5", "no shutdown"]} 
     # data that replaces data stored in file
